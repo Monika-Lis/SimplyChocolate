@@ -1,0 +1,199 @@
+.our-products-h2 {
+  color: black;
+  text-align: center;
+  background-color: #fafafa;
+}
+.our-products-container {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+}
+.our-products-choc {
+  width: 335px;
+  height: 364px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  background: #fff;
+}
+.our-products-choc2 {
+  display: none;
+}
+.our-products-choc-img {
+  width: 230px;
+  height: 201px;
+  margin-bottom: 8px;
+}
+.our-products-text-container {
+  text-align: center;
+}
+.our-products-button {
+  border-radius: 100px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  background: #fafafa;
+  padding: 8px 20px;
+  margin-top: 18px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.our-products-choc-text {
+  color: black;
+  margin: 0 auto;
+}
+.our-products-choc-text2 {
+  color: black;
+  margin: 0 auto;
+}
+.our-products-choc-div {
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.our-product-svg-slider {
+  display: none;
+}
+.our-products-choc-div2 {
+  display: none;
+}
+.our-products-choc-svg-icon {
+  fill: rgba(17, 17, 17, 0.1);
+}
+.our-products-choc3 {
+  display: none;
+}
+.our-products-choc4 {
+  display: none;
+}
+.our-products-h2-span {
+  color: #fd9222;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.6px;
+  text-transform: uppercase;
+  margin-left: 5px;
+}
+.our-products-h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.our-products-choc-text {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.our-products-choc-text2 {
+  color: rgba(17, 17, 17, 0.7);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: -0.24px;
+  text-transform: uppercase;
+}
+
+.our-products-slider-img {
+  color: aliceblue;
+}
+.our-products-slider {
+  display: none;
+  margin: 20px auto 32px;
+  justify-content: center;
+  gap: 13px;
+  list-style: none;
+}
+
+.our-products-slider-item-link {
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  background-color: #1111111a;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    width 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.our-products-slider-item-link:hover,
+.our-products-slider-itemplink:focus {
+  background-color: #fd9222;
+  width: 28px;
+  border-radius: 100px;
+}
+
+@media (min-width: 768px) {
+  .our-products-choc-div2 {
+    display: flex;
+  }
+  .our-products-choc2 {
+    display: flex;
+    border-radius: 15px;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    background: #fff;
+    width: 270px;
+    height: 364px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .our-products-container {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+  }
+  .our-products-choc {
+    width: 270px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .our-products-choc3 {
+    display: flex;
+    border-radius: 15px;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    background: #fff;
+    width: 270px;
+    height: 364px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .our-products-choc-div3 {
+    display: block;
+  }
+  .our-products-container {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .top-sellers-text-div {
+    display: flex;
+    gap: 576px;
+    text-align: left;
+    width: 1136px;
+  }
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx){
+  .resol1 {
+        background-image: url(./images/chocolate-orange@2x.jpg);
+    }
+    .resol2 {
+        background-image: url(./images/chocolate-cranberry@2x.jpg);
+    }
+    .resol3 {
+        background-image: url(./images/chocolate-lime@2x.jpg);
+    }
+    .resol4 {
+        background-image: url(./images/chocolate-pinapple@2x.jpg);
+    }
+}

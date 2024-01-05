@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,700&display=swap');
+
+@media (min-width: 375px) {
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 71px;
+  }
+
+  .hero-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 0 20px 21px;
+    background-color: #1e1823;
+    border-radius: 30px;
+    height: 621px;
+    width: 335px;
+    background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),
+      url(../images/hero_mobile_cover.jpg), lightgray -435.077px -7.879px / 282.839% 101.752%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    gap: 32px;
+  }
+
+  .hero-container-paragraf {
+    max-width: 295px;
+  }
+
+  .hero-paragraf {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+  }
+
+  .hero-br2 {
+    display: none;
+  }
+
+  .hero-button-container {
+    display: flex;
+    gap: 14px;
+  }
+
+  .hero-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .hero-buy-button {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    max-width: 120px;
+    height: 41px;
+    padding: 12px 28px;
+    border-radius: 100px;
+    background: #fd9222;
+    border: none;
+    text-wrap: nowrap;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .hero-buy-button:hover,
+  .hero-buy-button:focus {
+    color: #fd9222;
+    background-color: #fcf1e0;
+  }
+
+  .hero-him-button {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 100px;
+    border: 1px solid #fff;
+    padding: 12px 28px;
+    align-items: center;
+    color: #fff;
+    background-color: transparent;
+    width: 159px;
+    height: 41px;
+    text-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .hero-him-button:hover,
+  .hero-him-button:focus {
+    color: #fd9222;
+    border-color: #fd9222;
+  }
+
+  .hero-svg-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 100px;
+    background-color: #fff;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .hero-scroll-svg {
+    height: 6px;
+    width: 12px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .hero-scroll-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .hero-scroll-text {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    /* 116.667% */
+    letter-spacing: -0.36px;
+    margin-right: 12px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .hero-scroll-icon {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .hero-scroll-container:hover .hero-scroll-text,
+  .hero-scroll-container:focus .hero-scroll-text {
+    color: #fd9222;
+    fill: #fd9222;
+  }
+
+  .hero-scroll-container:hover .hero-svg-circle,
+  .hero-scroll-container:focus .hero-svg-circle {
+    background-color: #fd9222;
+  }
+
+  .hero-scroll-container:hover .hero-scroll-icon,
+  .hero-scroll-container:focus .hero-scroll-icon {
+    fill: white;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .hero-container {
+      background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),
+        url(../images/hero_mobile_cover@2x.jpg), lightgray -435.077px -7.879px / 282.839% 101.752%;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .hero {
+    margin-bottom: 50px;
+  }
+
+  .hero-container {
+    padding: 0 40px 40px;
+    height: 890px;
+    width: 704px;
+    align-content: baseline;
+    background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),
+      url(../images/hero_tablet_cover.jpg), lightgray -435.077px -7.879px / 282.839% 101.752%;
+  }
+
+  .hero-container-paragraf {
+    max-width: 484px;
+  }
+
+  .hero-paragraf {
+    font-size: 28px;
+    line-height: 1.21;
+  }
+
+  .hero-br {
+    display: none;
+  }
+
+  .hero-br2 {
+    display: inline-block;
+  }
+
+  .hero-buttons {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hero-buy-button {
+    max-width: 144px;
+    height: 45px;
+    padding: 14px 40px;
+  }
+
+  .hero-him-button {
+    padding: 14px 40px;
+    width: 183px;
+    height: 45px;
+  }
+
+  .hero-svg-circle {
+    width: 38px;
+    height: 38px;
+  }
+
+  .hero-scroll-text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    /* 116.667% */
+    letter-spacing: -0.03em;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx),
+  screen and (min-width: 768px) {
+    .hero-container {
+      background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),
+        url(../images/hero_tablet-cover@2x.jpg), lightgray -435.077px -7.879px / 282.839% 101.752%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero {
+    margin-bottom: 72px;
+  }
+
+  .hero-container {
+    height: 600px;
+    width: 1136px;
+    padding: 0 40px 40px;
+    background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),
+      url(../images/hero_desktop_cover.jpg), lightgray -435.077px -7.879px / 282.839% 101.752%;
+  }
+
+  .hero-container-paragraf {
+    max-width: 484px;
+  }
+
+  .hero-paragraf {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: -0.03em;
+  }
+
+  .hero-buttons {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .hero-buy-button {
+    max-width: 144px;
+    height: 45px;
+    padding: 14px 40px;
+  }
+
+  .hero-him-button {
+    padding: 14px 40px;
+    width: 183px;
+    height: 44px;
+  }
+
+  .hero-svg-circle {
+    width: 38px;
+    height: 38px;
+  }
+
+  .hero-scroll-text {
+    margin-right: 14px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .hero-container {
+      background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),
+        url(../images/hero_desktop_cover@2x.jpg), lightgray -435.077px -7.879px / 282.839% 101.752%;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+}

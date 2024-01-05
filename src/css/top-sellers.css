@@ -1,0 +1,132 @@
+body {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  background-color: #fafafa;
+}
+
+.top-sellers-img2 {
+  display: none;
+}
+.top-sellers-img-div {
+  display: none;
+  gap: 16px;
+}
+
+.top-sellers {
+  background-color: #fafafa;
+}
+.top-sellers-text {
+  width: 335px;
+  display: flex;
+  text-align: left;
+}
+.top-sellers-text2 {
+  display: none;
+}
+.top-sellers-img {
+  border-radius: 15px;
+}
+.top-sellers {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top-sellers-button {
+  border-radius: 100px;
+  background: #fd9222;
+  padding: 12px 28px;
+  border: none;
+  color: #fff;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 20px;
+}
+.top-sellers-button:hover {
+  background: #fcf1e0;
+  color: #fd9222;
+}
+.top-sellers-h2 {
+  text-transform: uppercase;
+}
+.top-sellers-h2-span {
+  color: #fd9222;
+  margin-right: 5px;
+}
+
+/* TABLET  */
+
+@media (min-width: 768px) {
+  .top-sellers-text {
+    display: none;
+  }
+  .top-sellers-text-div {
+    display: flex;
+    gap: 236px;
+    text-align: left;
+    width: 704px;
+  }
+  .top-sellers-img {
+    width: 344px;
+    height: 100%;
+  }
+  .top-sellers-button {
+    width: 162px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .top-sellers-text2 {
+    display: block;
+    width: 306px;
+  }
+}
+/* DESKTOP */
+@media (min-width: 1200px) {
+  .top-sellers-text-div {
+    display: flex;
+    gap: 576px;
+    text-align: left;
+    width: 1136px;
+  }
+  .top-sellers-text2 {
+    display: block;
+    width: 407px;
+  }
+  .top-sellers-hidden {
+    display: flex;
+    border-radius: 15px;
+  }
+  .top-sellers-img {
+    width: 368px;
+  }
+  .top-sellers-img2 {
+    display: block;
+    border-radius: 15px;
+    width: 368px;
+  }
+  .top-sellers-img-div {
+    display: flex;
+    gap: 16px;
+  }
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx){
+    .reso1 {
+        background-image: url(./images/top-sellers1@2x.jpg);
+    }
+    .reso2 {
+        background-image: url(./images/top-sellers2@2x.jpg);
+    }
+    .reso3 {
+        background-image: url(./images/top-sellers3@2x.jpg);
+    }
+}
+

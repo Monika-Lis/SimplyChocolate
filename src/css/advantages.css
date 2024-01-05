@@ -1,0 +1,106 @@
+@media (min-width: 375px) {
+  .advantages {
+    background: #1e1823;
+  }
+
+  .adv-container {
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 336px;
+  }
+
+  .adv-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+    color: #fff;
+  }
+
+  .adv-list-item {
+    padding-right: 28px;
+    position: relative;
+  }
+
+  .adv-list-item:last-child {
+    padding-right: 0px;
+  }
+
+  .adv-circle {
+    width: 64px;
+    height: 64px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .adv-svg {
+    width: 32px;
+    height: 32px;
+  }
+
+  .adv-title {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 22px 0 18px;
+  }
+
+  .adv-paragraf {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+    width: 308px;
+  }
+}
+
+@media (min-width: 768px) {
+  .adv-container {
+    padding: 50px 0;
+    width: 704px;
+  }
+
+  .adv-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  .adv-list-item {
+    padding-right: 28px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .adv-container {
+    padding: 50px 0;
+    width: 1100px;
+  }
+
+  .adv-list {
+    flex-direction: row;
+    gap: 70px;
+  }
+
+  .adv-list-item {
+    padding-right: 18px;
+  }
+
+  .vl {
+    height: 124px;
+    display: flex;
+    align-items: center;
+    width: 1px;
+    background-color: #ffffff80;
+    position: absolute;
+    left: 100%;
+    top: 25%;
+  }
+}
