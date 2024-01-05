@@ -180,3 +180,20 @@
     width: 1136px;
   }
 }
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx){
+  .resol1 {
+        background-image: url(./images/chocolate-orange@2x.jpg);
+    }
+    .resol2 {
+        background-image: url(./images/chocolate-cranberry@2x.jpg);
+    }
+    .resol3 {
+        background-image: url(./images/chocolate-lime@2x.jpg);
+    }
+    .resol4 {
+        background-image: url(./images/chocolate-pinapple@2x.jpg);
+    }
+}

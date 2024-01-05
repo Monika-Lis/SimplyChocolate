@@ -116,3 +116,17 @@ body {
     gap: 16px;
   }
 }
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx){
+    .reso1 {
+        background-image: url(./images/top-sellers1@2x.jpg);
+    }
+    .reso2 {
+        background-image: url(./images/top-sellers2@2x.jpg);
+    }
+    .reso3 {
+        background-image: url(./images/top-sellers3@2x.jpg);
+    }
+}
+
