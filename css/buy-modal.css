@@ -553,16 +553,3 @@
     color: #fd9222;
   }
 }
-
-/*==========================Personal information===========================*/
-
-.maindiv {
-  display: flex;
-  flex-direction: row;
-  align-items: center
-}
-
-.inputdiv {
-  display: flex;
-  flex-direction: column;
-}
