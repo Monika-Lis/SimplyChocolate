@@ -12,7 +12,7 @@
 @import url(subscribe.css);
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #111111;
   background-color: #fafafa;
 }
@@ -32,4 +32,8 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+a {
+  text-decoration: none;
 }
