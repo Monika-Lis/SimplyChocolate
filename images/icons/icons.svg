@@ -42,7 +42,7 @@
 <symbol id="icon-menu_big" viewBox="0 0 32 32">
 <path stroke-width="2.5" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="round" d="M4 16h24M4 8h24M4 24h24"></path>
 </symbol>
-<symbol id="icon-menu_small" viewBox="0 0 32 32">
+<symbol id="icon_menu_small" viewBox="0 0 32 32">
 <path stroke-width="2.2857" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="round" d="M4 16h24M4 8h24M4 24h24"></path>
 </symbol>
 <symbol id="icon-scrolldown_bold" viewBox="0 0 32 32">

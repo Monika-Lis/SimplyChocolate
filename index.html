@@ -20,62 +20,103 @@
   </head>
   <body>
     <!-- HEADER -->
-    <section class="header-section">
-      <div class="header-brand">
-        <a class="" href="./index.html">
-          <span class="">SIMPLY</span>CHOCOLATE
-          <svg class="header-position-social">
-            <use id="logo_thin"></use>
-          </svg>
-        </a>
+    <header class="header-section">
+      <div class="header-container">
+        <nav class="header-nav">
+          <a class="header-logo header-logo-link" href="./index.html">
+            <span class="header-simply">SIMPLY</span> CHOCOLATE
+            <svg
+              class="header-logo-icon-svg"
+              xmlns="http://www.w3.org/2000/svg"
+              width="21"
+              height="22"
+              viewBox="0 0 21 22"
+              fill="none"
+            >
+              <g clip-path="url(#clip0_151_3791)">
+                <path
+                  d="M2.58818 13.6747L9.66049 2.24L10.0804 1.79762L15.4852 5.40119L15.5222 7.57579L16.8412 9.72801L11.0139 18.9658L2.58818 13.6747Z"
+                  fill="#FCF1E0"
+                />
+                <path
+                  d="M14.1976 16.171L4.88839 10.3539M7.45555 6.14288L16.7648 11.96M6.97586 17.4734L14.6773 4.84042M17.8344 10.2054C15.8396 8.95885 15.0561 7.98468 16.3397 5.87918L10.0227 1.93188L2.32123 14.5649L11.6305 20.382L17.8344 10.2054Z"
+                  stroke="#FD9222"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_151_3791">
+                  <rect
+                    width="21"
+                    height="21"
+                    fill="white"
+                    transform="translate(0 0.5)"
+                  />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+
+          <ul class="header-menu">
+            <li>
+              <a class="" href="">Home</a>
+            </li>
+            <li>
+              <a class="" href="">How it's made</a>
+            </li>
+            <li>
+              <a class="" href="">Our products</a>
+            </li>
+            <li>
+              <a class="" href="">Top Sellers</a>
+            </li>
+            <li>
+              <a class="" href="">Chocolate is loved</a>
+            </li>
+          </ul>
+          <ul class="header-socials">
+            <li>
+              <a class="header-icon-social" href="#">
+                <svg width="24px" height="24px">
+                  <use id="instagram_normal_state"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="header-icon-social" href="#">
+                <svg width="24px" height="24px" class="position-social">
+                  <use id="twitter_normal_state"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <button
+            class="header-menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg
+              class="header-menu-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              viewBox="0 0 28 28"
+              fill="none"
+            >
+              <path
+                d="M3.5 14H24.5M3.5 7H24.5M3.5 21H24.5"
+                stroke="#111111"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </nav>
       </div>
-
-      <!-- HAMBURGER -->
-      <button class="header-nav-button js-open-menu">
-        <span>
-          <svg class="hamburger-icon" width="14px" height="21px">
-            <use href="./images/icons/icons.svg#icon-menu_small"></use>
-          </svg>
-        </span>
-      </button>
-
-      <!--   -->
-      <nav class="header-nav-desktop">
-        <ul class="header-menu">
-          <li>
-            <a class="" href="">Home</a>
-          </li>
-          <li>
-            <a class="" href="">How it's made</a>
-          </li>
-          <li>
-            <a class="" href="">Our products</a>
-          </li>
-          <li>
-            <a class="" href="">Top Sellers</a>
-          </li>
-          <li>
-            <a class="" href="">Chocolate is loved</a>
-          </li>
-        </ul>
-        <ul class="">
-          <li>
-            <a class="header-icon-social" href="#">
-              <svg width="24px" height="24px">
-                <use id="instagram_normal_state"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a class="header-icon-social" href="#">
-              <svg width="24px" height="24px" class="position-social">
-                <use id="twitter_normal_state"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </section>
+    </header>
 
     <!-- HERO -->
     <section class="hero">

@@ -13,59 +13,63 @@
     margin: 20px auto 14px;
   }
 
-  .header-brand {
+  .header-nav {
     display: flex;
-    align-items: center;
-    width: 169px;
-    height: 21px;
-    flex-wrap: wrap;
-    gap: 4px;
-    font-size: 14px;
-    color: var(--accent-background);
-  }
-  .header-position-social {
-    width: "21px";
-    height: "21px";
+    flex-direction: row;
+    justify-content: space-between;
   }
 
-  .header-nav-button {
+  .header-logo {
+    color: #111;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: -0.42px;
+    text-align: center;
     display: flex;
-    justify-content: end;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .header-simply {
+    font-style: italic;
+  }
+
+  .header-logo-icon {
+    width: 21px;
+    height: 21px;
   }
 
   .header-menu {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
+    display: none;
   }
 
-  .header-nav-desktop ul {
+  .header-socials {
+    display: none;
+  }
+
+  .header-menu-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-  }
+    justify-content: center;
 
-  .header-nav .header-title {
-    display: flex;
-    margin-top: 10px;
-  }
-
-  .js-open-menu .hamburger-menu {
-    width: 124px;
-    height: 176px;
-    padding-top: 136px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 24px;
-    color: var(--background-color);
-    font-size: 14px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    outline: none;
   }
 }
+
 footer {
   background-color: var(--accent-background);
   height: 440px;
