@@ -1,6 +1,4 @@
 @media (min-width: 375px) {
-  /*Modal window*/
-
   .buy-is-hidden {
     pointer-events: none;
     visibility: hidden;
@@ -55,6 +53,10 @@
   }
 
   .buy-close-button-svg {
+    stroke: #111;
+    stroke-width: 2px;
+    width: 24px;
+    height: 24px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
@@ -104,6 +106,19 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .buy-product-li:hover,
+  .buy-product-li:focus,
+  .buy-product-li:active {
+    border-color: #fd9222;
+  }
+
+  .gram:hover .buy-product-li,
+  .gram:focus .buy-product-li,
+  .gram:active .buy-product-li {
+    border-color: #fd9222;
   }
 
   .buy-image {
@@ -112,7 +127,7 @@
   }
 
   .gram {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 14px;
     line-height: normal;
@@ -126,16 +141,9 @@
     padding: 8px 27px;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 100px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
-  .gram:focus,
-  .gram:hover {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
 
   .div-modal-form {
@@ -264,7 +272,7 @@
   }
 
   .buy-send-button {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 14px;
     line-height: 1.17;
@@ -320,11 +328,6 @@
     height: 33px;
   }
 
-  .gram:focus,
-  .gram:hover {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  }
-
   .label-modal {
     font-size: 14px;
     line-height: 18px;
@@ -338,7 +341,7 @@
   }
 
   .input-modal-phone {
-    padding-left: 177px;
+    padding-left: 169px;
   }
 
   .personal-information {
@@ -368,201 +371,4 @@
     height: 45px;
     padding: 14px 40px;
   }
-}
-
-@media (min-width: 1200px) {
-  .buy-modal-window {
-    width: 609px;
-    padding: 48px;
-  }
-
-  .modal-header {
-    font-size: 24px;
-    line-height: 28px;
-    letter-spacing: -0.72px;
-    margin-bottom: 40px;
-  }
-
-  .buy-products-ul {
-    flex-direction: row;
-    margin-bottom: 40px;
-    gap: 16px;
-  }
-
-  .buy-product-li {
-    width: 160px;
-    padding: 24px 20px 18px;
-    flex-direction: column;
-  }
-
-  .buy-image {
-    width: 120px;
-    height: 107px;
-  }
-
-  .gram {
-    min-width: 96px;
-    height: 33px;
-  }
-
-  .label-modal {
-    font-size: 14px;
-    line-height: 18px;
-    letter-spacing: -0.28px;
-  }
-
-  .buy-form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .personal-information-box {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .personal-infromation-label {
-    display: block;
-    width: 513px;
-  }
-
-  .personal-information {
-    width: 200px;
-    padding: 22px 24px;
-  }
-
-  .input-modal {
-    width: 513px;
-    padding: 22px 24px;
-    outline: transparent;
-    font-size: 14px;
-    line-height: normal;
-    letter-spacing: -0.36px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-  }
-
-  .input-modal-phone {
-    padding-left: 106px;
-  }
-
-  .input-modal::placeholder {
-    color: #4040404d;
-  }
-
-  .personal-information {
-    width: 263px;
-    border: 1.5px solid rgba(17, 17, 17, 0.05);
-    border-radius: 13px;
-    background-color: transparent;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 14px 18px;
-    outline: transparent;
-    font-size: 14px;
-    line-height: normal;
-    letter-spacing: -0.36px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-  }
-
-  .personal-information::placeholder {
-    color: #4040404d;
-  }
-
-  .svg-modal {
-    position: absolute;
-    left: 16px;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .modal-div-four {
-    margin-bottom: 16px;
-  }
-
-  .textarea-modal {
-    width: 263px;
-    font-size: 14px;
-    line-height: normal;
-    letter-spacing: -0.36px;
-    border: 1.5px solid rgba(17, 17, 17, 0.05);
-    border-radius: 13px;
-    background-color: transparent;
-    padding: 14px 18px 60px 18px;
-    outline: transparent;
-    resize: none;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    color: rgba(64, 64, 64, 0.3);
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-  }
-
-  .textarea-modal::placeholder {
-    color: #4040404d;
-  }
-
-  .svg-modal-ua {
-    position: absolute;
-    top: 50%;
-    left: 10px;
-    /* Odległość ikony od lewej krawędzi */
-    transform: translateY(-50%);
-  }
-
-  .svg-modal-mastercard {
-    position: absolute;
-    top: 35%;
-    right: 18px;
-    width: 21px;
-    height: 12px;
-  }
-
-  .button-modal {
-    display: flex;
-    justify-content: left;
-  }
-
-  .buy-send-button {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.17;
-    letter-spacing: normal;
-    color: #ffffff;
-    background-color: #fd9222;
-    cursor: pointer;
-    box-sizing: border-box;
-    min-width: 93px;
-    height: 41px;
-    padding: 12px 28px;
-    border: none;
-    border-radius: 100px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .buy-send-button:focus,
-  .buy-send-button:hover {
-    background-color: #fcf1e0;
-    color: #fd9222;
-  }
-}
-
-/*==========================Personal information===========================*/
-
-.maindiv {
-  display: flex;
-  flex-direction: row;
-  align-items: center
-}
-
-.inputdiv {
-  display: flex;
-  flex-direction: column;
 }

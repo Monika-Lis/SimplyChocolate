@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,700&display=swap");
 
 @media (min-width: 375px) {
   .visually-hidden {
@@ -31,8 +31,13 @@
     border-radius: 30px;
     height: 621px;
     width: 335px;
-    background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),
-      url(../images/hero_mobile_cover.jpg), lightgray -435.077px -7.879px / 282.839% 101.752%;
+    background: linear-gradient(
+        180deg,
+        rgba(17, 17, 17, 0) 0%,
+        rgba(17, 17, 17, 0.4) 100%
+      ),
+      url(../images/hero_mobile_cover.jpg),
+      lightgray -435.077px -7.879px / 282.839% 101.752%;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -49,6 +54,7 @@
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: -0.03em;
+    font-family: Montserrat;
   }
 
   .hero-br2 {
@@ -70,7 +76,7 @@
   }
 
   .hero-buy-button {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     display: flex;
     max-width: 120px;
     height: 41px;
@@ -96,7 +102,7 @@
   }
 
   .hero-him-button {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     border-radius: 100px;
     border: 1px solid #fff;
     padding: 12px 28px;
@@ -108,7 +114,7 @@
     text-wrap: nowrap;
     display: flex;
     justify-content: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
@@ -131,8 +137,8 @@
   }
 
   .hero-scroll-svg {
-    height: 6px;
-    width: 12px;
+    height: 16px;
+    width: 16px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -166,27 +172,31 @@
   }
 
   .hero-scroll-container:hover .hero-scroll-text,
-  .hero-scroll-container:focus .hero-scroll-text {
+  .hero-scroll-container:focus-within .hero-scroll-text {
     color: #fd9222;
-    fill: #fd9222;
   }
 
   .hero-scroll-container:hover .hero-svg-circle,
-  .hero-scroll-container:focus .hero-svg-circle {
+  .hero-scroll-container:focus-within .hero-svg-circle {
     background-color: #fd9222;
   }
 
   .hero-scroll-container:hover .hero-scroll-icon,
-  .hero-scroll-container:focus .hero-scroll-icon {
+  .hero-scroll-container:focus-within .hero-scroll-icon {
     fill: white;
   }
 
   @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .hero-container {
-      background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),
-        url(../images/hero_mobile_cover@2x.jpg), lightgray -435.077px -7.879px / 282.839% 101.752%;
+      background: linear-gradient(
+          180deg,
+          rgba(17, 17, 17, 0) 0%,
+          rgba(17, 17, 17, 0.4) 100%
+        ),
+        url(../images/hero_mobile_cover@2x.jpg),
+        lightgray -435.077px -7.879px / 282.839% 101.752%;
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
@@ -204,8 +214,13 @@
     height: 890px;
     width: 704px;
     align-content: baseline;
-    background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),
-      url(../images/hero_tablet_cover.jpg), lightgray -435.077px -7.879px / 282.839% 101.752%;
+    background: linear-gradient(
+        180deg,
+        rgba(17, 17, 17, 0) 0%,
+        rgba(17, 17, 17, 0.4) 100%
+      ),
+      url(../images/hero_tablet_cover.jpg),
+      lightgray -435.077px -7.879px / 282.839% 101.752%;
   }
 
   .hero-container-paragraf {
@@ -248,6 +263,11 @@
     height: 38px;
   }
 
+  .hero-scroll-svg {
+    width: 22px;
+    height: 22px;
+  }
+
   .hero-scroll-text {
     font-size: 14px;
     font-style: normal;
@@ -258,12 +278,17 @@
   }
 
   @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx),
-  screen and (min-width: 768px) {
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx),
+    screen and (min-width: 768px) {
     .hero-container {
-      background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),
-        url(../images/hero_tablet-cover@2x.jpg), lightgray -435.077px -7.879px / 282.839% 101.752%;
+      background: linear-gradient(
+          180deg,
+          rgba(17, 17, 17, 0) 0%,
+          rgba(17, 17, 17, 0.4) 100%
+        ),
+        url(../images/hero_tablet-cover@2x.jpg),
+        lightgray -435.077px -7.879px / 282.839% 101.752%;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -280,8 +305,13 @@
     height: 600px;
     width: 1136px;
     padding: 0 40px 40px;
-    background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),
-      url(../images/hero_desktop_cover.jpg), lightgray -435.077px -7.879px / 282.839% 101.752%;
+    background: linear-gradient(
+        180deg,
+        rgba(17, 17, 17, 0) 0%,
+        rgba(17, 17, 17, 0.4) 100%
+      ),
+      url(../images/hero_desktop_cover.jpg),
+      lightgray -435.077px -7.879px / 282.839% 101.752%;
   }
 
   .hero-container-paragraf {
@@ -322,11 +352,16 @@
   }
 
   @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .hero-container {
-      background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),
-        url(../images/hero_desktop_cover@2x.jpg), lightgray -435.077px -7.879px / 282.839% 101.752%;
+      background: linear-gradient(
+          180deg,
+          rgba(17, 17, 17, 0) 0%,
+          rgba(17, 17, 17, 0.4) 100%
+        ),
+        url(../images/hero_desktop_cover@2x.jpg),
+        lightgray -435.077px -7.879px / 282.839% 101.752%;
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;

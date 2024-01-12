@@ -1,0 +1,233 @@
+@media (min-width: 375px) {
+  .how-its-made-container {
+    width: 335px;
+    margin: 0 auto 72px;
+  }
+
+  .how-its-made-header {
+    color: #111;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+    margin: 0 auto 32px;
+  }
+
+  .how-its-made-header-span {
+    color: #fd9222;
+  }
+
+  .how-its-made-video-player {
+    width: 335px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .how-its-made-video {
+    display: block;
+    width: 335px;
+    height: 500px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    border-radius: 15px;
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+      ),
+      url(../images/video-img-mobile-335.jpg),
+      lightgray -158.445px -335.767px / 187.796% 186.969% no-repeat;
+  }
+
+  .how-its-made-video-player > .how-its-made-play-btn {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 233px;
+    left: 150px;
+    padding: 0;
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+
+  .how-its-made-div {
+    width: 335px;
+    padding: 20px 14px;
+    margin: 20px auto 0;
+    border-radius: 15px;
+    background: #fff;
+  }
+
+  .how-its-made-play-icon {
+    fill: #141414;
+  }
+
+  .how-its-made-heading-three {
+    color: #111;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin: 0 0 20px 0;
+  }
+
+  .how-its-made-list {
+    display: flex;
+    flex-direction: column;
+    color: #111;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: -0.018em;
+    list-style-type: none;
+    row-gap: 18px;
+  }
+
+  .how-its-made-list-item {
+    display: flex;
+  }
+
+  .how-its-made-list li::before {
+    content: url("../images/icon-dot.svg");
+    margin-right: 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .how-its-made-container {
+    width: 768px;
+    max-width: 768px;
+    margin: 0 auto 100px;
+  }
+
+  .how-its-made-heading {
+    width: 205px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.16;
+    letter-spacing: -0.045em;
+    margin: 0 auto 50px;
+  }
+
+  .how-its-made-video-player {
+    width: 614px;
+  }
+
+  .how-its-made-video {
+    width: 614px;
+    height: 400px;
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+      ),
+      url(../images/video-img-tablet-614.jpg),
+      lightgray -11.071px -343.839px / 103.473% 236.295% no-repeat;
+  }
+
+  .how-its-made-video-player > .how-its-made-play-btn {
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 178px;
+    left: 285px;
+    padding: 0;
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+
+  .how-its-made-div {
+    width: 614px;
+    padding: 32px;
+    margin: 20px auto 0;
+    border-radius: 15px;
+    background: #fff;
+  }
+
+  .how-its-made-heading-three {
+    width: 350px;
+    height: 48px;
+    line-height: 1.3;
+    margin: 0 0 28px 0;
+  }
+
+  .how-its-made-list {
+    margin: 0 70px 0 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .how-its-made-container {
+    width: 1200px;
+    max-width: 12006px;
+    margin: 0 auto 128px;
+  }
+
+  .how-its-made-video-player {
+    width: 600px;
+  }
+
+  .how-its-made-video {
+    width: 600px;
+    height: 400px;
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+      ),
+      url(../images/video-img-desktop-600.jpg),
+      lightgray -10.819px -343.839px / 103.473% 236.295% no-repeat;
+  }
+
+  .how-its-made-video-player > .how-its-made-play-btn {
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 178px;
+    left: 285px;
+    padding: 0;
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+
+  .how-its-made-div {
+    width: 516px;
+    padding: 32px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background: #fff;
+  }
+
+  .how-its-made-heading-three {
+    width: 350px;
+    height: 48px;
+    line-height: 1.3;
+    margin: 0 0 28px 0;
+  }
+
+  .how-its-made-list {
+    margin: 0 24px 0 0;
+    row-gap: 24px;
+  }
+
+  .how-its-made-horizontal-layout {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+  }
+}
